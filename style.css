@@ -127,3 +127,25 @@ justify-content: space-between;
   padding: 5rem;
 }
 
+.questions{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+  background-color: white;
+    padding: 2.5rem 2rem;
+    border-radius: 1rem;
+    margin: 2rem 0;
+    
+}
+
+
+
+.questions p{
+  font-size: 1.4rem;
+  opacity: 0.8;
+}
+
+.questions i{
+  font-size: 1.6rem;
+}
+
