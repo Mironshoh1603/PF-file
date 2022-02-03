@@ -1,1 +1,52 @@
+/* Azizullo's part started */
+/* Header started */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+header {
+  padding: 20px 150px;
+  height: 400px;
+  background-color: black;
+}
+.nav_bar {
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.for_logo {
+  display: flex;
+  align-items: center;
 
+  /* margin-right: 80px; */
+}
+.for_logo p {
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+}
+.for_logo img {
+  width: 30px;
+  height: 50px;
+  margin-left: 10px;
+}
+.nav_bar a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: white;
+  /* margin-right: 60px; */
+}
+.nav_bar button {
+  width: 120px;
+  height: 40px;
+  font-size: 1.6rem;
+  color: white;
+  background-color: #464646b6;
+  border: 0;
+  border-radius: 20px;
+}
