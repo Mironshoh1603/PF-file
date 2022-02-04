@@ -142,10 +142,129 @@ justify-content: space-between;
 
 .questions p{
   font-size: 1.4rem;
-  opacity: 0.8;
+  
 }
 
 .questions i{
   font-size: 1.6rem;
 }
 
+/* course free*/
+.questions__free div{
+  margin: 2rem 0;
+  font-size: 1.4rem;
+  letter-spacing: 1.2px;
+}
+
+.questions__free i{
+  color: blue;
+  font-size: 1.8rem;
+}
+
+.questions__free h3{
+  font-size: 1.6rem;
+}
+
+.course__free{
+  background-color: white;
+  padding: 1rem;
+}
+
+.money__register{
+  background-color: black;
+  display: inline-block;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.money{
+  background-color: black;
+  display: inline-block;
+  padding: 2rem;
+
+}
+.money__register h3{
+  color: white;
+  margin: 1rem 0;
+  font-size: 1.8rem;
+}
+
+.money__register h2{
+  color: white;
+  margin: 1rem 0;
+  font-size: 2.8rem;
+}
+.money__register p{
+  color: white;
+  margin: 1rem 0;
+}
+
+.money__register button{
+  width: 15rem;
+  height: 4rem;
+  border: none;
+  border-radius: 1rem;
+  font-weight: 700;
+  color: white;
+  background-color: #F36732;
+  margin: 1rem 0;
+}
+
+/*savollar section*/
+.savollar h3{
+  font-size: 1.4rem;
+  margin: 2rem 0;
+}
+
+.savollar div{
+  font-size: 1.2rem;
+  margin: 2rem 0;
+}
+
+.savollar div i{
+  color: blue;
+}
+
+.right__money{
+  background-color: black;
+  display: inline-block;
+padding: 2rem;
+text-align: center;
+border-radius: 1rem;
+}
+
+.right__money h3{
+  color: white;
+  margin: 1rem 0;
+  font-size: 1.8rem;
+}
+
+.right__money h2{
+  color: white;
+  margin: 1rem 0;
+  font-size: 2.8rem;
+}
+
+.right__money p{
+  color: white;
+  margin: 1rem 0;
+  font-size: 1.4rem;
+}
+
+.right__money button{
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  width: 7rem;
+  height: 4rem;
+  margin: 1rem 0;
+  background-color: #F36732;
+  width: 10rem;
+  
+}
+
+.course__free{
+  display: flex;
+  justify-content: space-between;
+}
