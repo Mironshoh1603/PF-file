@@ -5,12 +5,15 @@
   margin: 0;
   font-family: sans-serif;
 }
+body {
+  background-color: rgba(229, 229, 226, 0.411);
+}
 html {
   font-size: 62.5%;
 }
 header {
   padding: 20px 150px;
-  height: 400px;
+  height: 560px;
   background-color: black;
 }
 .nav_bar {
@@ -22,8 +25,6 @@ header {
 .for_logo {
   display: flex;
   align-items: center;
-
-  /* margin-right: 80px; */
 }
 .for_logo p {
   font-size: 2rem;
@@ -49,4 +50,94 @@ header {
   background-color: #464646b6;
   border: 0;
   border-radius: 20px;
+}
+.pd_text {
+  width: 40%;
+}
+.p_design {
+  height: 490px;
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 90px;
+}
+.text_head {
+  font-size: 3.8rem;
+  font-weight: 700;
+  margin-top: 50px;
+}
+.text_sub {
+  font-size: 2.4rem;
+  margin-top: 20px;
+  color: gray;
+  margin-bottom: 60px;
+}
+.text_lorem {
+  font-size: 1.6rem;
+  line-height: 2.3;
+}
+.pd_text button {
+  width: 250px;
+  height: 50px;
+  font-size: 1.6rem;
+  background-color: tomato;
+  color: white;
+  border: 0;
+  font-weight: 700;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.pd_img {
+  width: 40%;
+}
+.pd_img img {
+  width: 500px;
+  height: 400px;
+  margin-top: 50px;
+}
+/* Header finished */
+
+/* About us section started */
+.about_us {
+  padding: 20px 150px;
+  margin-top: 130px;
+}
+.au_back {
+  height: 500px;
+  background-color: white;
+  margin-top: 80px;
+  border-radius: 30px;
+  padding: 0px 90px;
+}
+.au_logos {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.au_logos img {
+  width: 500px;
+  height: 300px;
+}
+.au_logos p {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.au_back p {
+  font-size: 1.6rem;
+  line-height: 2.3;
+}
+.au_p{
+  background-image: url(projectFactoryimages/About.png);
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-left: -40px;
 }
