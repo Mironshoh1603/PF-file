@@ -213,60 +213,154 @@ justify-content: space-between;
 }
 
 /*savollar section*/
-.savollar h3{
+
+.questions__1{
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+.questions__1 p{
   font-size: 1.4rem;
-  margin: 2rem 0;
-}
-
-.savollar div{
-  font-size: 1.2rem;
-  margin: 2rem 0;
-}
-
-.savollar div i{
-  color: blue;
-}
-
-.right__money{
-  background-color: black;
-  display: inline-block;
-padding: 2rem;
-text-align: center;
-border-radius: 1rem;
-}
-
-.right__money h3{
-  color: white;
-  margin: 1rem 0;
-  font-size: 1.8rem;
-}
-
-.right__money h2{
-  color: white;
-  margin: 1rem 0;
-  font-size: 2.8rem;
-}
-
-.right__money p{
-  color: white;
-  margin: 1rem 0;
-  font-size: 1.4rem;
-}
-
-.right__money button{
-  color: white;
-  border: none;
-  border-radius: 1rem;
-  width: 7rem;
-  height: 4rem;
-  margin: 1rem 0;
-  background-color: #F36732;
-  width: 10rem;
   
 }
 
-.course__free{
+.questions__1 h3{
+  font-size: 1.6rem;
+}
+
+.questions__1 i{
+  color: blue;
+}
+
+.right__moneys{
+  background-color: black;
+flex-direction: column;
+display: flex;
+gap: 2rem;
+padding: 2rem;
+border-radius: 2rem;
+
+}
+
+.right__moneys h3{
+  color: white;
+font-size: 1.8rem;
+}
+
+.right__moneys h2{
+  color: white;
+  font-size: 2.4rem;
+}
+
+.right__moneys p{
+  color: white;
+  font-size: 1.4rem;
+}
+
+.right__moneys button{
+  width: 15rem;
+  height: 4rem;
+  background-color: #F36732;
+  border: none;
+  border-radius: 1rem;
+  font-weight: 700;
+color: white;
+margin: 0 auto;
+}
+
+.questions__right{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+
+}
+
+.questions__right__child{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.course__fee{
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.line__1{
+  
+  width: 90%;
+  margin: 4rem auto;
+}
+
+.lorem__ipsum{
+  font-size: 1.4rem;
+  opacity: 0.8;
+  text-align: center;
+}
+
+/*blach sections*/
+.black__section{
+  background-color: black;
+margin-top: 5rem;
+}
+
+.lorem__2__2,.heading__2__1,.lorem__please{
+  color: white;
+}
+
+
+.heading__2__1{
+  font-size: 2.4rem;
+}
+
+.lorem__please{
+  font-size: 1.4rem;
+  
+}
+
+.black__section input{
+  width: 30rem;
+  height: 4rem;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  background-color: rgba(128, 128, 128, 0.288);
+  color: white;
+  font-weight: 700;
+}
+
+.lorem__2__2{
+  font-size: 1.4rem;
+  opacity: 0.8;
+}
+
+.black__section p i{
+  color: blue;
+}
+
+.left__email{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+
+.container__black__section{
+  width: 70%;
+  margin: 0 auto;
+  padding: 5rem 0;
   display: flex;
   justify-content: space-between;
 }
+
+.right__image img{
+  transform: scale(0.5);
+
+}
+
 
