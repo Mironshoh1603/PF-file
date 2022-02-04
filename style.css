@@ -4,17 +4,28 @@
   padding: 0;
   margin: 0;
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 body {
-  background-color: rgba(229, 229, 226, 0.411);
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  column-gap: 500px;
+  align-items: center;
 }
 html {
   font-size: 62.5%;
 }
-header {
-  padding: 20px 150px;
+.container {
   height: 560px;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+header {
+  width: 70%;
+  /* margin: 0 auto;  */
 }
 .nav_bar {
   margin-top: 20px;
@@ -55,7 +66,7 @@ header {
   width: 40%;
 }
 .p_design {
-  height: 490px;
+  height: 520px;
   background-color: white;
   border-radius: 30px;
   margin-top: 60px;
@@ -66,17 +77,22 @@ header {
 .text_head {
   font-size: 3.8rem;
   font-weight: 700;
-  margin-top: 50px;
+}
+.pd_div {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+  height: 332px;
 }
 .text_sub {
   font-size: 2.4rem;
   margin-top: 20px;
   color: gray;
-  margin-bottom: 60px;
 }
 .text_lorem {
   font-size: 1.6rem;
   line-height: 2.3;
+  margin-top: 30px;
 }
 .pd_text button {
   width: 250px;
@@ -87,27 +103,24 @@ header {
   border: 0;
   font-weight: 700;
   border-radius: 10px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .pd_img {
   width: 40%;
 }
 .pd_img img {
-  width: 500px;
-  height: 400px;
-  margin-top: 50px;
+  width: 347px;
+  height: 420px;
 }
 /* Header finished */
 
 /* About us section started */
 .about_us {
-  padding: 20px 150px;
-  margin-top: 130px;
+  width: 70%;
 }
 .au_back {
   height: 500px;
   background-color: white;
-  margin-top: 80px;
   border-radius: 30px;
   padding: 0px 90px;
 }
@@ -116,19 +129,23 @@ header {
   align-items: flex-end;
   justify-content: space-between;
 }
+.au_socials i {
+  font-size: 2.8rem;
+  margin-top: 15px;
+}
 .au_logos img {
   width: 500px;
   height: 300px;
-}
-.au_logos p {
-  font-size: 2rem;
-  font-weight: 700;
 }
 .au_back p {
   font-size: 1.6rem;
   line-height: 2.3;
 }
-.au_p{
+.au_p p {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.au_p {
   background-image: url(projectFactoryimages/About.png);
   box-sizing: border-box;
   background-repeat: no-repeat;
@@ -140,4 +157,62 @@ header {
   align-items: flex-end;
   justify-content: center;
   margin-left: -40px;
+}
+/* About us section finished */
+
+/* Course Experience Section started */
+.c_ex {
+  width: 70%;
+  background-color: white;
+  height: 600px;
+  border-radius: 30px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 90px;
+
+}
+.c_head {
+  background-image: url(projectFactoryimages/Experience.png);
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 420px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 50px; */
+}
+.c_head p {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.c_ex button {
+  margin-top: 50px;
+  width: 280px;
+  height: 50px;
+  font-size: 1.6rem;
+}
+.btn_1{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.btn_3 {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: black;
+  color: white;
+}
+.after_btn{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.after_btn p{
+  width: 60%;
+  font-size: 1.6rem;
+  line-height: 2.5;
 }
