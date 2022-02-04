@@ -120,6 +120,7 @@ justify-content: space-between;
   display: flex;
   justify-content: space-between;
   margin: 3rem 0;
+  gap: 0.5rem;
 }
 
 .gallery__big{
@@ -268,3 +269,4 @@ border-radius: 1rem;
   display: flex;
   justify-content: space-between;
 }
+
