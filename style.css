@@ -1,1 +1,750 @@
+/* Azizullo's part started */
+/* Header started */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  column-gap: 500px;
+  align-items: center;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  height: 560px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+header {
+  width: 70%;
+  /* margin: 0 auto;  */
+}
+.nav_bar {
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.for_logo {
+  display: flex;
+  align-items: center;
+}
+.for_logo p {
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+}
+.for_logo img {
+  width: 30px;
+  height: 50px;
+  margin-left: 10px;
+}
+.nav_bar a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: white;
+  /* margin-right: 60px; */
+}
+.nav_bar button {
+  width: 120px;
+  height: 40px;
+  font-size: 1.6rem;
+  color: white;
+  background-color: #464646b6;
+  border: 0;
+  border-radius: 20px;
+}
+.pd_text {
+  width: 40%;
+}
+.p_design {
+  height: 520px;
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 90px;
+}
+.text_head {
+  font-size: 3.8rem;
+  font-weight: 700;
+}
+.pd_div {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+  height: 332px;
+}
+.text_sub {
+  font-size: 2.4rem;
+  margin-top: 20px;
+  color: gray;
+}
+.text_lorem {
+  font-size: 1.6rem;
+  line-height: 2.3;
+  margin-top: 30px;
+}
+.pd_text button {
+  width: 250px;
+  height: 50px;
+  font-size: 1.6rem;
+  background-color: tomato;
+  color: white;
+  border: 0;
+  font-weight: 700;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.pd_img {
+  width: 40%;
+}
+.pd_img img {
+  width: 347px;
+  height: 420px;
+}
+/* Header finished */
 
+/* About us section started */
+.about_us {
+  width: 70%;
+}
+.au_back {
+  height: 500px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 0px 90px;
+}
+.au_logos {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.au_socials i {
+  font-size: 2.8rem;
+  margin-top: 15px;
+}
+.au_logos img {
+  width: 500px;
+  height: 300px;
+}
+.au_back p {
+  font-size: 1.6rem;
+  line-height: 2.3;
+}
+.au_p p {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.au_p {
+  background-image: url(projectFactoryimages/About.png);
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-left: -40px;
+}
+/* About us section finished */
+
+/* Course Experience Section started */
+.c_ex {
+  width: 70%;
+  background-color: white;
+  height: 600px;
+  border-radius: 30px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 90px;
+}
+.c_head {
+  background-image: url(projectFactoryimages/Experience.png);
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 420px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 50px; */
+}
+.c_head p {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.c_ex button {
+  margin-top: 50px;
+  width: 280px;
+  height: 50px;
+  font-size: 1.6rem;
+}
+.btn_1 {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.btn_3 {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: black;
+  color: white;
+}
+.after_btn {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.after_btn p {
+  width: 60%;
+  font-size: 1.6rem;
+  line-height: 2.5;
+}
+/* Course Experience section finished */
+/* Azizullo's part finihsed */
+
+.container__sessions {
+  width: 70%;
+  margin: 0 auto;
+
+  padding: 0.5rem;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.sessions {
+  text-align: center;
+}
+
+.sessions h1 {
+  font-size: 10rem;
+  font-weight: 900;
+  opacity: 0.1;
+}
+
+.sessions h2 {
+  font-size: 3rem;
+  transform: translateY(-8rem);
+  font-weight: 700;
+}
+
+.first__sessions p {
+  font-size: 1.6rem;
+}
+
+.first__sessions {
+  font-size: 1.6rem;
+  background-color: rgba(128, 128, 128, 0.118);
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+}
+
+.first__sessions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date__video {
+  display: flex;
+  gap: 5rem;
+  margin-right: 7rem;
+  padding-top: 5px;
+}
+
+.image__lorem img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 1rem;
+  filter: brightness(0.5);
+  margin-left: 1rem;
+}
+
+.image__lorem {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  margin: 4rem 0;
+}
+
+.image__lorem p {
+  width: 70%;
+  font-size: 1.4rem;
+  opacity: 0.8;
+  letter-spacing: 1.2px;
+  line-height: 2;
+}
+
+/*gallery bolimi */
+.gallery__first {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery__first img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.5);
+}
+
+.gallery__first h3 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+.gallery__first p {
+  font-size: 1.4rem;
+  opacity: 0.8;
+}
+
+.gallery__section {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+  gap: 0.5rem;
+}
+
+.gallery__big {
+  background-color: white;
+  padding: 5rem;
+}
+
+.questions {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+  background-color: white;
+  padding: 2.5rem 2rem;
+  border-radius: 1rem;
+  margin: 2rem 0;
+}
+
+.questions p {
+  font-size: 1.4rem;
+}
+
+.questions i {
+  font-size: 1.6rem;
+}
+
+/* course free*/
+.questions__free div {
+  margin: 2rem 0;
+  font-size: 1.4rem;
+  letter-spacing: 1.2px;
+}
+
+.questions__free i {
+  color: blue;
+  font-size: 1.8rem;
+}
+
+.questions__free h3 {
+  font-size: 1.6rem;
+}
+
+.course__free {
+  background-color: white;
+  padding: 1rem;
+}
+
+.money__register {
+  background-color: black;
+  display: inline-block;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.money {
+  background-color: black;
+  display: inline-block;
+  padding: 2rem;
+}
+.money__register h3 {
+  color: white;
+  margin: 1rem 0;
+  font-size: 1.8rem;
+}
+
+.money__register h2 {
+  color: white;
+  margin: 1rem 0;
+  font-size: 2.8rem;
+}
+.money__register p {
+  color: white;
+  margin: 1rem 0;
+}
+
+.money__register button {
+  width: 15rem;
+  height: 4rem;
+  border: none;
+  border-radius: 1rem;
+  font-weight: 700;
+  color: white;
+  background-color: #f36732;
+  margin: 1rem 0;
+}
+
+/*savollar section*/
+
+.questions__1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+.questions__1 p {
+  font-size: 1.4rem;
+}
+
+.questions__1 h3 {
+  font-size: 1.6rem;
+}
+
+.questions__1 i {
+  color: blue;
+}
+
+.right__moneys {
+  background-color: black;
+  flex-direction: column;
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.right__moneys h3 {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.right__moneys h2 {
+  color: white;
+  font-size: 2.4rem;
+}
+
+.right__moneys p {
+  color: white;
+  font-size: 1.4rem;
+}
+
+.right__moneys button {
+  width: 15rem;
+  height: 4rem;
+  background-color: #f36732;
+  border: none;
+  border-radius: 1rem;
+  font-weight: 700;
+  color: white;
+  margin: 0 auto;
+}
+
+.questions__right {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.questions__right__child {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.course__fee {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.line__1 {
+  width: 90%;
+  margin: 4rem auto;
+}
+
+.lorem__ipsum {
+  font-size: 1.4rem;
+  opacity: 0.8;
+  text-align: center;
+}
+
+/*blach sections*/
+.black__section {
+  background-color: black;
+  margin-top: 5rem;
+}
+
+.lorem__2__2,
+.heading__2__1,
+.lorem__please {
+  color: white;
+}
+
+.heading__2__1 {
+  font-size: 2.4rem;
+}
+
+.lorem__please {
+  font-size: 1.4rem;
+}
+
+.black__section input {
+  width: 30rem;
+  height: 4rem;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  background-color: rgba(128, 128, 128, 0.288);
+  color: white;
+  font-weight: 700;
+}
+
+.lorem__2__2 {
+  font-size: 1.4rem;
+  opacity: 0.8;
+}
+
+.black__section p i {
+  color: blue;
+}
+
+.left__email {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.container__black__section {
+  width: 70%;
+  margin: 0 auto;
+  padding: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right__image img {
+  transform: scale(0.5);
+}
+.container__projects {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.image__bac {
+  display: flex;
+}
+
+.image__bac :first-child {
+  transform: scale(1.2);
+  position: relative;
+  left: 28rem;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.circl__span {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.circl__heading__3 {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.heading__3__design {
+  font-size: 1.8rem;
+}
+
+.lorem__left__projects {
+  font-size: 1.4rem;
+}
+
+.left__project {
+  width: 45%;
+  letter-spacing: 1.2px;
+  line-height: 2.5;
+  display: inline-block;
+}
+
+.line__lorem {
+  font-size: 1.4rem;
+}
+
+.line__lorem i {
+  color: blue;
+}
+
+.son {
+  font-size: 2rem;
+  background-color: rgba(128, 128, 128, 0.288);
+  display: inline-block;
+  padding: 0 4rem;
+  border-radius: 1rem;
+  margin: 3rem 0;
+}
+
+.sect {
+  width: 30rem;
+  height: 25rem;
+  background-color: rgba(128, 128, 128, 0.288);
+  border-radius: 2rem;
+}
+
+.sect__1 {
+  width: 60%;
+  height: 35rem;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 2rem;
+  box-shadow: 0 0 3rem rgba(128, 128, 128, 0.541);
+}
+
+.project__left__right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right__project {
+  width: 40%;
+}
+
+/* scheudo */
+.start {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.start h4 {
+  font-size: 1.8rem;
+}
+
+.start p i {
+  font-size: 1.8rem;
+}
+
+.start p {
+  font-size: 1.8rem;
+  display: flex;
+  gap: 1rem;
+  opacity: 0.8;
+}
+
+.date__1 {
+  display: flex;
+  gap: 3rem;
+  box-shadow: 0 0 3rem rgba(128, 128, 128, 0.541);
+  padding: 2rem 5rem;
+  border-radius: 2rem;
+  margin-top: 5rem;
+}
+
+.date__1 span {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: black;
+}
+
+.dates {
+  display: flex;
+  justify-content: space-between;
+}
+
+.days {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 7rem;
+}
+
+.days__11 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.days h4 {
+  font-size: 1.8rem;
+}
+
+.days button {
+  width: 15rem;
+  height: 4rem;
+  border: none;
+  border-radius: 1rem;
+  color: white;
+  background-color: #f36732;
+  font-weight: 700;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10rem;
+  background-color: white;
+  padding: 4rem 0;
+  width: 100%;
+}
+
+.icon__footer {
+  font-size: 2.4rem;
+  gap: 3rem;
+}
+
+.logos {
+  display: flex;
+  width: 5rem;
+}
+
+.logos h3 {
+  font-size: 2.4rem;
+}
+
+.contact__footer {
+  font-size: 1.6rem;
+  opacity: 0.9;
+}
+
+.container__footer {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
