@@ -1,1 +1,220 @@
+/* Azizullo's part started */
+/* Header started */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  column-gap: 500px;
+  align-items: center;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  height: 560px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+header {
+  width: 70%;
+  /* margin: 0 auto;  */
+}
+.nav_bar {
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.for_logo {
+  display: flex;
+  align-items: center;
+}
+.for_logo p {
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+}
+.for_logo img {
+  width: 30px;
+  height: 50px;
+  margin-left: 10px;
+}
+.nav_bar a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: white;
+  /* margin-right: 60px; */
+}
+.nav_bar button {
+  width: 120px;
+  height: 40px;
+  font-size: 1.6rem;
+  color: white;
+  background-color: #464646b6;
+  border: 0;
+  border-radius: 20px;
+}
+.pd_text {
+  width: 40%;
+}
+.p_design {
+  height: 520px;
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 90px;
+}
+.text_head {
+  font-size: 3.8rem;
+  font-weight: 700;
+}
+.pd_div {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+  height: 332px;
+}
+.text_sub {
+  font-size: 2.4rem;
+  margin-top: 20px;
+  color: gray;
+}
+.text_lorem {
+  font-size: 1.6rem;
+  line-height: 2.3;
+  margin-top: 30px;
+}
+.pd_text button {
+  width: 250px;
+  height: 50px;
+  font-size: 1.6rem;
+  background-color: tomato;
+  color: white;
+  border: 0;
+  font-weight: 700;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.pd_img {
+  width: 40%;
+}
+.pd_img img {
+  width: 347px;
+  height: 420px;
+}
+/* Header finished */
 
+/* About us section started */
+.about_us {
+  width: 70%;
+}
+.au_back {
+  height: 500px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 0px 90px;
+}
+.au_logos {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.au_socials i {
+  font-size: 2.8rem;
+  margin-top: 15px;
+}
+.au_logos img {
+  width: 500px;
+  height: 300px;
+}
+.au_back p {
+  font-size: 1.6rem;
+  line-height: 2.3;
+}
+.au_p p {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.au_p {
+  background-image: url(projectFactoryimages/About.png);
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-left: -40px;
+}
+/* About us section finished */
+
+/* Course Experience Section started */
+.c_ex {
+  width: 70%;
+  background-color: white;
+  height: 600px;
+  border-radius: 30px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 90px;
+
+}
+.c_head {
+  background-image: url(projectFactoryimages/Experience.png);
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 420px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 50px; */
+}
+.c_head p {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.c_ex button {
+  margin-top: 50px;
+  width: 280px;
+  height: 50px;
+  font-size: 1.6rem;
+}
+.btn_1{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.btn_3 {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: black;
+  color: white;
+}
+.after_btn{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.after_btn p{
+  width: 60%;
+  font-size: 1.6rem;
+  line-height: 2.5;
+}
+/* Course Experience section finished */
+/* Azizullo's part finihsed */
