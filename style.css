@@ -362,5 +362,219 @@ margin-top: 5rem;
   transform: scale(0.5);
 
 }
+.container__projects{
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+.image__bac{
+  display: flex;
+
+}
+
+.image__bac :first-child{
+  transform: scale(1.2);
+position: relative;
+left: 28rem;
+opacity: 0.2;
+z-index: 0;
+}
+
+
+
+
+
+.circl__span{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: black;
+}
+
+
+.circl__heading__3{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+
+.heading__3__design{
+  font-size: 1.8rem;
+}
+
+.lorem__left__projects{
+  font-size: 1.4rem;
+}
+
+.left__project{
+  width: 45%;
+  letter-spacing: 1.2px;
+  line-height: 2.5;
+  display: inline-block ;
+}
+
+.line__lorem {
+  font-size: 1.4rem;
+}
+
+.line__lorem i{
+  color: blue;
+
+}
+
+.son{
+  font-size: 2rem;
+  background-color: rgba(128, 128, 128, 0.288);
+  display: inline-block;
+  padding: 0 4rem;
+  border-radius: 1rem;
+  margin: 3rem 0;
+}
+
+
+.sect{
+ width: 30rem;
+ height: 25rem;
+ background-color: rgba(128, 128, 128, 0.288);
+  border-radius: 2rem;
+  
+}
+
+.sect__1{
+  width: 60%;
+  height: 35rem ;
+  background-color:white;
+  margin: 0 auto;
+  border-radius: 2rem;
+ box-shadow: 0 0 3rem rgba(128, 128, 128, 0.541);
+
+}
+
+.project__left__right{
+  display:flex;
+  justify-content: space-between;
+}
+
+.right__project{
+  width: 40%;
+}
+
+
+/* scheudo */
+.start{
+  display: flex;
+  width: 70%;
+align-items: center;
+justify-content: space-between;
+margin:0 auto;
+}
+
+.start h4{
+  font-size: 1.8rem;
+}
+
+.start p i{
+  font-size: 1.8rem;
+}
+
+.start p{
+  font-size: 1.8rem;
+  display: flex;
+  gap: 1rem;
+  opacity: 0.8;
+}
+
+.date__1{
+  display: flex;
+  gap: 3rem;
+  box-shadow: 0 0 3rem rgba(128, 128, 128, 0.541);
+  padding: 2rem 5rem;
+  border-radius: 2rem;
+  margin-top: 5rem;
+}
+
+.date__1 span{
+  font-size: 2.4rem;
+  font-weight: 700;
+  color:black;
+}
+
+.dates{
+  display: flex;
+  justify-content: space-between;
+}
+
+.days{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 7rem;
+}
+
+.days__11{
+  font-size: 2.4rem;
+  font-weight: 700;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.days h4{
+  font-size: 1.8rem;
+}
+
+.days button{
+  width: 15rem;
+  height: 4rem;
+  border: none;
+  border-radius: 1rem;
+  color: white;
+  background-color: #F36732;
+  font-weight: 700;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10rem;
+  background-color: white;
+  padding: 4rem 0;
+}
+
+.icon__footer{
+  font-size: 2.4rem;
+  gap: 3rem;
+}
+
+.logos{
+  display: flex;
+width: 5rem;
+}
+
+.logos h3{
+  font-size: 2.4rem;
+
+}
+
+.contact__footer{
+  font-size: 1.6rem;
+  opacity: 0.9;
+}
+
+
+.container__footer{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
 
 
